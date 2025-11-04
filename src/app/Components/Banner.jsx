@@ -10,11 +10,11 @@ import CountUp from "react-countup";
 const Banner = () => {
   return (
     <>
-          <section id="home" className="container">
+          <section id="home" className="container ">
         <div className="both flex justify-between items-center py-15">
           <div className="flex flex-col  bg-black  px-6 ">
             <p className="text-lg text-gray-400 mb-2">Hi, I am</p>
-            <h1 className="text-5xl font-bold text-amber-500 mb-3">
+            <h1 className="text-5xl  font-bold text-amber-500  mb-3">
               Mahir The Coder
             </h1>
             <p className="text-gray-400 max-w-xl">
