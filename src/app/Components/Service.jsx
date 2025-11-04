@@ -2,6 +2,9 @@ import React from "react";
 import { FaReact } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa6";
 import { SiNextdotjs } from "react-icons/si";
+import { RiNodejsLine } from "react-icons/ri";
+import { SiExpress } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
 
 const Service = () => {
   return (
@@ -14,39 +17,39 @@ const Service = () => {
 
           <div className="skill-part flex justify-between mb-10 flex-wrap">
 
-            <div className="partone w-[350px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
+            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
               <button className="text-5xl text-amber-600 pb-8">
                 <FaHtml5 />
               </button>
               <h2 className="text-2xl font-bold pb-4 text-amber-600 font-sans">
                 HTML & CSS
               </h2>
-              <p className="  text-xl font-sans font-medium text-[#575757] w-[300px]">
+              <p className="  text-xl font-sans font-medium text-[#575757] ">
                 Core building blocks of mordern web design with responsive
                 layouts.{" "}
               </p>
             </div>
 
-            <div className="partone w-[350px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
+            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
               <button className="text-5xl text-blue-400 pb-8">
                 <FaReact  />
               </button>
               <h2 className="text-2xl font-bold pb-4 text-amber-600 font-sans">
                React.js
               </h2>
-              <p className="  text-xl font-sans font-medium text-[#575757] w-[300px]">
+              <p className="  text-xl font-sans font-medium text-[#575757] ">
               Building first and dynamic user interface usingreact components and hooks.
               </p>
             </div>
 
-            <div className="partone w-[350px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
+            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
               <button className="text-5xl text-white pb-8">
                 <SiNextdotjs />
               </button>
               <h2 className="text-2xl font-bold pb-4 text-amber-600 font-sans">
                 Next.js
               </h2>
-              <p className="  text-xl font-sans font-medium text-[#575757] w-[300px]">
+              <p className="  text-xl font-sans font-medium text-[#575757] ">
               Creating SEO-friendly and high-performance web apps with Next.js framework
               </p>
             </div>
@@ -55,83 +58,84 @@ const Service = () => {
           </div>
           <div className="skill-part flex justify-between mb-10 flex-wrap">
 
-            <div className="partone w-[350px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
-              <button className="text-5xl text-amber-600 pb-8">
-                <FaHtml5 />
+              <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
+              <button className="text-5xl text-green-600 pb-8">
+                <RiNodejsLine  />
               </button>
               <h2 className="text-2xl font-bold pb-4 text-amber-600 font-sans">
-              Node.js
+               Node.js
               </h2>
-              <p className="  text-xl font-sans font-medium text-[#575757] w-[300px]">
-                Core building blocks of mordern web design with responsive
-                layouts.{" "}
+              <p className="  text-xl font-sans font-medium text-[#575757] ">
+              Server-side Javascript development for scable applications and Apis
               </p>
             </div>
 
-            <div className="partone w-[350px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
-              <button className="text-5xl text-blue-400 pb-8">
-                <FaReact  />
+              <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
+              <button className="text-5xl text-amber-400 pb-8">
+                <SiExpress  />
               </button>
               <h2 className="text-2xl font-bold pb-4 text-amber-600 font-sans">
-               React.js
+              Express.js
               </h2>
-              <p className="  text-xl font-sans font-medium text-[#575757] w-[300px]">
-              Building first and dynamic user interface usingreact components and hooks.
+              <p className="  text-xl font-sans font-medium text-[#575757] ">
+              Minimal and Flexibale Node.js framework for backend REST Apis.
               </p>
             </div>
 
-            <div className="partone w-[350px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
-              <button className="text-5xl text-white pb-8">
-                <SiNextdotjs />
+                 <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
+              <button className="text-5xl text-green-600 pb-8">
+                <SiMongodb />
+
               </button>
               <h2 className="text-2xl font-bold pb-4 text-amber-600 font-sans">
-                Next.js
+               MongoDB
               </h2>
-              <p className="  text-xl font-sans font-medium text-[#575757] w-[300px]">
-              Creating SEO-friendly and high-performance web apps with Next.js framework
+              <p className="  text-xl font-sans font-medium text-[#575757] ">
+             NoSQL database for managing and strong data efficiently.
               </p>
             </div>
-
             
           </div>
           <div className="skill-part flex justify-between mb-10 flex-wrap">
 
-            <div className="partone w-[350px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
-              <button className="text-5xl text-amber-600 pb-8">
-                <FaHtml5 />
-              </button>
-              <h2 className="text-2xl font-bold pb-4 text-amber-600 font-sans">
-                HTML & CSS
-              </h2>
-              <p className="  text-xl font-sans font-medium text-[#575757] w-[300px]">
-                Core building blocks of mordern web design with responsive
-                layouts.{" "}
-              </p>
-            </div>
-
-            <div className="partone w-[350px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
+            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
               <button className="text-5xl text-blue-400 pb-8">
                 <FaReact  />
               </button>
               <h2 className="text-2xl font-bold pb-4 text-amber-600 font-sans">
                React.js
               </h2>
-              <p className="  text-xl font-sans font-medium text-[#575757] w-[300px]">
+              <p className="  text-xl font-sans font-medium text-[#575757] ">
               Building first and dynamic user interface usingreact components and hooks.
               </p>
             </div>
 
-            <div className="partone w-[350px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
-              <button className="text-5xl text-white pb-8">
-                <SiNextdotjs />
+
+            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
+              <button className="text-5xl text-blue-400 pb-8">
+                <FaReact  />
               </button>
               <h2 className="text-2xl font-bold pb-4 text-amber-600 font-sans">
-                Next.js
+               React.js
               </h2>
-              <p className="  text-xl font-sans font-medium text-[#575757] w-[300px]">
-              Creating SEO-friendly and high-performance web apps with Next.js framework
+              <p className="  text-xl font-sans font-medium text-[#575757] ">
+              Building first and dynamic user interface usingreact components and hooks.
               </p>
             </div>
+
+            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
+              <button className="text-5xl text-blue-400 pb-8">
+                <FaReact  />
+              </button>
+              <h2 className="text-2xl font-bold pb-4 text-amber-600 font-sans">
+               React.js
+              </h2>
+              <p className="  text-xl font-sans font-medium text-[#575757] ">
+              Building first and dynamic user interface usingreact components and hooks.
+              </p>
+            </div>
+
+          
 
             
           </div>
