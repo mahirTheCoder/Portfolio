@@ -5,6 +5,9 @@ import { SiNextdotjs } from "react-icons/si";
 import { RiNodejsLine } from "react-icons/ri";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { FaDatabase } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
 
 const Service = () => {
   return (
@@ -17,7 +20,7 @@ const Service = () => {
 
           <div className="skill-part flex justify-between mb-10 flex-wrap">
 
-            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
+            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-950  rounded-xl ">
               <button className="text-5xl text-amber-600 pb-8">
                 <FaHtml5 />
               </button>
@@ -30,7 +33,7 @@ const Service = () => {
               </p>
             </div>
 
-            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
+            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-950  rounded-xl ">
               <button className="text-5xl text-blue-400 pb-8">
                 <FaReact  />
               </button>
@@ -42,7 +45,7 @@ const Service = () => {
               </p>
             </div>
 
-            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
+            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-950  rounded-xl ">
               <button className="text-5xl text-white pb-8">
                 <SiNextdotjs />
               </button>
@@ -58,7 +61,7 @@ const Service = () => {
           </div>
           <div className="skill-part flex justify-between mb-10 flex-wrap">
 
-              <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
+              <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-950  rounded-xl ">
               <button className="text-5xl text-green-600 pb-8">
                 <RiNodejsLine  />
               </button>
@@ -70,7 +73,7 @@ const Service = () => {
               </p>
             </div>
 
-              <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
+              <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-950  rounded-xl ">
               <button className="text-5xl text-amber-400 pb-8">
                 <SiExpress  />
               </button>
@@ -82,7 +85,7 @@ const Service = () => {
               </p>
             </div>
 
-                 <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
+                 <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-950  rounded-xl ">
               <button className="text-5xl text-green-600 pb-8">
                 <SiMongodb />
 
@@ -98,40 +101,40 @@ const Service = () => {
           </div>
           <div className="skill-part flex justify-between mb-10 flex-wrap">
 
-            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
+            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-950  rounded-xl ">
               <button className="text-5xl text-blue-400 pb-8">
-                <FaReact  />
+                <RiTailwindCssFill  />
               </button>
               <h2 className="text-2xl font-bold pb-4 text-amber-600 font-sans">
-               React.js
+              Tailwind CSS
               </h2>
               <p className="  text-xl font-sans font-medium text-[#575757] ">
-              Building first and dynamic user interface usingreact components and hooks.
+             Moder utility-first css framework for and responsive UI design.
               </p>
             </div>
 
 
-            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
-              <button className="text-5xl text-blue-400 pb-8">
-                <FaReact  />
+            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-950  rounded-xl ">
+              <button className="text-5xl text-green-300 pb-8">
+                <FaDatabase  />
               </button>
               <h2 className="text-2xl font-bold pb-4 text-amber-600 font-sans">
-               React.js
+               REST APIs
               </h2>
               <p className="  text-xl font-sans font-medium text-[#575757] ">
-              Building first and dynamic user interface usingreact components and hooks.
+             designing structured and secure api endPoints for client-server communication
               </p>
             </div>
 
-            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-900  rounded-xl ">
-              <button className="text-5xl text-blue-400 pb-8">
-                <FaReact  />
+            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-950 shadow-xl rounded-xl ">
+              <button className="text-5xl text-white pb-8">
+                <FaGithub   />
               </button>
               <h2 className="text-2xl font-bold pb-4 text-amber-600 font-sans">
-               React.js
+               GIT & Github
               </h2>
               <p className="  text-xl font-sans font-medium text-[#575757] ">
-              Building first and dynamic user interface usingreact components and hooks.
+              Version control and collaborative development using Git Workflow.
               </p>
             </div>
 
