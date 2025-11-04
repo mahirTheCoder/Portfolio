@@ -1,4 +1,6 @@
 import React from 'react';
+import { CiLinkedin } from "react-icons/ci";
+import { FaFacebookF } from "react-icons/fa";
 
 import { FaInstagram, FaDribbble, FaBehance, FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
 
@@ -35,14 +37,14 @@ const Footer = () => {
 
           {/* Social Media Icons */}
           <div className="flex justify-center gap-6 mb-8 md:mb-12">
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white text-2xl p-2 border border-gray-600 rounded-full transition-colors duration-300">
+            <a href="https://www.instagram.com/apurbo_chowdhury_75/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white text-2xl p-2 border border-gray-600 rounded-full transition-colors duration-300">
               <FaInstagram />
             </a>
-            <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white text-2xl p-2 border border-gray-600 rounded-full transition-colors duration-300">
-              <FaDribbble />
+            <a href="https://www.linkedin.com/in/mahirthecoder-nextgen-3b7779369" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white text-2xl p-2 border border-gray-600 rounded-full transition-colors duration-300">
+              <CiLinkedin />
             </a>
-            <a href="https://behance.net" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white text-2xl p-2 border border-gray-600 rounded-full transition-colors duration-300">
-              <FaBehance />
+            <a href="https://www.facebook.com/share/1Bnp8ss9CF/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white text-2xl p-2 border border-gray-600 rounded-full transition-colors duration-300">
+              <FaFacebookF />
             </a>
             {/* You can add more icons like LinkedIn, Twitter, etc. */}
           </div>
