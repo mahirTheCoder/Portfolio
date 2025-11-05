@@ -1,13 +1,18 @@
-import React from 'react'
-
+import React  from "react";
+import { RiMenuSearchFill } from "react-icons/ri";
 const Navbar = () => {
+
+
+
   return (
     <>
-    <section id="navbar">
+      <section id="navbar">
         <nav className=" hidden lg:block w-full border-b py-10 border-gray-800">
           <div className="container mx-auto px-6 py-8  flex justify-between items-center">
             {/* Logo */}
-            <h1 className="text-3xl font-semibold text-white hover:text-amber-500 duration-700">mahirTheCoder</h1>
+            <h1 className="text-3xl font-semibold text-white hover:text-amber-500 duration-700">
+              mahirTheCoder
+            </h1>
 
             {/* Menu */}
             <div className="hidden md:flex gap-6">
@@ -37,9 +42,22 @@ const Navbar = () => {
             </a>
           </div>
         </nav>
+
+        {/* <nav id="Responsive">
+          <div className="content py-5 px-4">
+            <div className="logo flex justify-between">
+              <h1 className="text-xl font-semibold text-white hover:text-amber-500 duration-700">
+                mahirTheCoder
+              </h1>
+              <button className="text-3xl text-amber-600">
+                <RiMenuSearchFill />
+              </button>
+            </div>
+          </div>
+        </nav> */}
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

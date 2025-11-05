@@ -66,7 +66,7 @@ const Footer = () => {
 
           {/* Designed by / Copyright */}
           <div className="text-gray-500 text-sm md:text-base">
-            <p>Designed by @mahmood.fazile UI/UX designer</p>
+            <p>All rights reseurved by @mahir</p>
           </div>
         </footer>
       </section>

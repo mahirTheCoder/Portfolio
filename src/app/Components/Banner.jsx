@@ -11,7 +11,7 @@ const Banner = () => {
   return (
     <>
       <section id="home" className="container ">
-        <div className="both flex justify-between items-center py-15">
+        <div className="both flex justify-between items-center  flex-wrap py-15">
           <div className="flex flex-col  bg-black  px-6 ">
             <p className="text-lg text-gray-400 mb-2">Hi, I am</p>
             <h1 className="text-5xl  font-bold text-amber-500  mb-3">
@@ -66,28 +66,48 @@ const Banner = () => {
             </div>
 
             {/* ----------counter part----- */}
-            <div className="counter-part  py-7 px-6 bg-gray-900 mt-20 rounded-2xl">
-              <div className="allCounter flex justify-between items-center ">
-                <div className="partOne">
-                  <h2 className="text-3xl  font-bold text-amber-500 mb-2">
-                    <CountUp end={5} />+
-                  </h2>
-                  <p>Experiences</p>
-                </div>
-                <div className="partOne border-l-3 border-gray-600 pl-3 ">
-                  <h2 className="text-3xl font-bold text-amber-500 mb-2">
-                    <CountUp end={5} />+
-                  </h2>
-                  <p>Project done</p>
-                </div>
-                <div className="partOne border-l-3 border-gray-600 pl-3  ">
-                  <h2 className="text-3xl font-bold text-amber-500 mb-2">
-                    <CountUp end={5} />+
-                  </h2>
-                  <p>Happy Clients</p>
-                </div>
-              </div>
-            </div>
+  
+
+{/* ----------counter part----- */}
+<div className="counter-part py-7 px-6 bg-gray-900 mt-20 rounded-2xl text-white">
+  
+
+  <div className="allCounter flex flex-wrap justify-center md:flex-nowrap md:justify-between items-center gap-y-6 md:gap-x-4">
+    
+    <div className="partOne text-center md:text-left w-full md:w-auto"> 
+      <h2 className="text-3xl font-bold text-amber-500 mb-2">
+        <CountUp end={5} duration={3} />+
+      </h2>
+      <p className="text-gray-300">Experiences</p>
+    </div>
+    
+    <div className="partOne text-center md:text-left w-full md:w-auto 
+                  border-t border-gray-600 pt-6 mt-6 
+                  md:border-t-0 md:pt-0 md:mt-0 
+                  md:border-l md:pl-6">
+      <h2 className="text-3xl font-bold text-amber-500 mb-2">
+        <CountUp end={5} duration={3} />+
+      </h2>
+      <p className="text-gray-300">Projects Done</p>
+    </div>
+    
+    {/* Part Three: Happy Clients */}
+    <div className="partOne text-center md:text-left w-full md:w-auto 
+                  border-t border-gray-600 pt-6 mt-6 
+                  md:border-t-0 md:pt-0 md:mt-0 
+                  md:border-l md:pl-6">
+      <h2 className="text-3xl font-bold text-amber-500 mb-2">
+        <CountUp end={5} duration={3} />+
+      </h2>
+      <p className="text-gray-300">Happy Clients</p>
+    </div>
+    
+  </div>
+</div>
+
+
+
+
           </div>
           <div className="img-part  ">
             <Image

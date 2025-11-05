@@ -18,9 +18,11 @@ const Service = () => {
             Tech Stack I Use
           </h2>
 
-          <div className="skill-part flex justify-between mb-10 flex-wrap">
-
-            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-950  rounded-xl ">
+          <div className="skill-part flex justify-between mb-10 flex-wrap gap-10 lg:gap-0">
+            <div
+              className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center  bg-gray-950 border border-gray-800 
+                           hover:border-amber-500 hover:shadow-amber-500/20  rounded-xl "
+            >
               <button className="text-5xl text-amber-600 pb-8">
                 <FaHtml5 />
               </button>
@@ -33,19 +35,26 @@ const Service = () => {
               </p>
             </div>
 
-            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-950  rounded-xl ">
+            <div
+              className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center  bg-gray-950 border border-gray-800 
+                           hover:border-amber-500 hover:shadow-amber-500/20  rounded-xl "
+            >
               <button className="text-5xl text-blue-400 pb-8">
-                <FaReact  />
+                <FaReact />
               </button>
               <h2 className="text-2xl font-bold pb-4 text-amber-600 font-sans">
-               React.js
+                React.js
               </h2>
               <p className="  text-xl font-sans font-medium text-[#575757] ">
-              Building first and dynamic user interface usingreact components and hooks.
+                Building first and dynamic user interface usingreact components
+                and hooks.
               </p>
             </div>
 
-            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-950  rounded-xl ">
+            <div
+              className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center  bg-gray-950 border border-gray-800 
+                           hover:border-amber-500 hover:shadow-amber-500/20  rounded-xl "
+            >
               <button className="text-5xl text-white pb-8">
                 <SiNextdotjs />
               </button>
@@ -53,94 +62,105 @@ const Service = () => {
                 Next.js
               </h2>
               <p className="  text-xl font-sans font-medium text-[#575757] ">
-              Creating SEO-friendly and high-performance web apps with Next.js framework
+                Creating SEO-friendly and high-performance web apps with Next.js
+                framework
               </p>
             </div>
-
-            
           </div>
           <div className="skill-part flex justify-between mb-10 flex-wrap">
-
-              <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-950  rounded-xl ">
+            <div
+              className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center  bg-gray-950 border border-gray-800 
+                           hover:border-amber-500 hover:shadow-amber-500/20  rounded-xl "
+            >
               <button className="text-5xl text-green-600 pb-8">
-                <RiNodejsLine  />
+                <RiNodejsLine />
               </button>
               <h2 className="text-2xl font-bold pb-4 text-amber-600 font-sans">
-               Node.js
+                Node.js
               </h2>
               <p className="  text-xl font-sans font-medium text-[#575757] ">
-              Server-side Javascript development for scable applications and Apis
+                Server-side Javascript development for scable applications and
+                Apis
               </p>
             </div>
 
-              <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-950  rounded-xl ">
+            <div
+              className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center  bg-gray-950 border border-gray-800 
+                           hover:border-amber-500 hover:shadow-amber-500/20  rounded-xl "
+            >
               <button className="text-5xl text-amber-400 pb-8">
-                <SiExpress  />
+                <SiExpress />
               </button>
               <h2 className="text-2xl font-bold pb-4 text-amber-600 font-sans">
-              Express.js
+                Express.js
               </h2>
               <p className="  text-xl font-sans font-medium text-[#575757] ">
-              Minimal and Flexibale Node.js framework for backend REST Apis.
+                Minimal and Flexibale Node.js framework for backend REST Apis.
               </p>
             </div>
 
-                 <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-950  rounded-xl ">
+            <div
+              className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center  bg-gray-950 border border-gray-800 
+                           hover:border-amber-500 hover:shadow-amber-500/20 rounded-xl "
+            >
               <button className="text-5xl text-green-600 pb-8">
                 <SiMongodb />
-
               </button>
               <h2 className="text-2xl font-bold pb-4 text-amber-600 font-sans">
-               MongoDB
+                MongoDB
               </h2>
               <p className="  text-xl font-sans font-medium text-[#575757] ">
-             NoSQL database for managing and strong data efficiently.
+                NoSQL database for managing and strong data efficiently.
               </p>
             </div>
-            
           </div>
           <div className="skill-part flex justify-between mb-10 flex-wrap">
-
-            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-950  rounded-xl ">
+            <div
+              className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center  bg-gray-950 border border-gray-800 
+                           hover:border-amber-500 hover:shadow-amber-500/20  rounded-xl "
+            >
               <button className="text-5xl text-blue-400 pb-8">
-                <RiTailwindCssFill  />
+                <RiTailwindCssFill />
               </button>
               <h2 className="text-2xl font-bold pb-4 text-amber-600 font-sans">
-              Tailwind CSS
+                Tailwind CSS
               </h2>
               <p className="  text-xl font-sans font-medium text-[#575757] ">
-             Moder utility-first css framework for and responsive UI design.
+                Moder utility-first css framework for and responsive UI design.
               </p>
             </div>
 
-
-            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-950  rounded-xl ">
+            <div
+              className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center  bg-gray-950 border border-gray-800 
+                           hover:border-amber-500 hover:shadow-amber-500/20  rounded-xl "
+            >
               <button className="text-5xl text-green-300 pb-8">
-                <FaDatabase  />
+                <FaDatabase />
               </button>
               <h2 className="text-2xl font-bold pb-4 text-amber-600 font-sans">
-               REST APIs
+                REST APIs
               </h2>
               <p className="  text-xl font-sans font-medium text-[#575757] ">
-             designing structured and secure api endPoints for client-server communication
+                designing structured and secure api endPoints for client-server
+                communication
               </p>
             </div>
 
-            <div className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center bg-gray-950 shadow-xl rounded-xl ">
+            <div
+              className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center  bg-gray-950 border border-gray-800 
+                           hover:border-amber-500 hover:shadow-amber-500/20 shadow-xl rounded-xl "
+            >
               <button className="text-5xl text-white pb-8">
-                <FaGithub   />
+                <FaGithub />
               </button>
               <h2 className="text-2xl font-bold pb-4 text-amber-600 font-sans">
-               GIT & Github
+                GIT & Github
               </h2>
               <p className="  text-xl font-sans font-medium text-[#575757] ">
-              Version control and collaborative development using Git Workflow.
+                Version control and collaborative development using Git
+                Workflow.
               </p>
             </div>
-
-          
-
-            
           </div>
         </div>
       </section>
